@@ -30,11 +30,21 @@ function play(playerChoice) {
 }
 
 function updateResult(result) {
+    let color;
+    if (result === "You Win!") {
+        color = "green";
+    } else if (result === "You Lose!") {
+        color = "red";
+    } else {
+        color = "black";
+    }
+
     document.getElementById('result').innerHTML = `
-        <p>${result}</p>
+        <p style="color: ${color};">${result}</p>
         <p>Your score: ${playerScore}</p>
         <p>Computer's score: ${computerScore}</p>`;
 }
+
 
 function checkWinner() {
     if (playerScore === 3) {
