@@ -32,11 +32,11 @@ function play(playerChoice) {
 function updateResult(result) {
     let color;
     if (result === "You Win!") {
-        color = "green";
+        color = "#28a745";
     } else if (result === "You Lose!") {
-        color = "red";
+        color = "#dc3545";
     } else {
-        color = "black";
+        color = "#6c757d";
     }
 
     document.getElementById('result').innerHTML = `
