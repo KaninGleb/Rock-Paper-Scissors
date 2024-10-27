@@ -9,9 +9,9 @@
     <li><strong>Computer Play:</strong> The computer randomly picks one too. 🤖</li>
     <li><strong>Who Wins?</strong>
         <ul>
-            <li>Rock crushes Scissors! ✊✂️</li>
-            <li>Scissors cut Paper! ✂️📄</li>
-            <li>Paper covers Rock! 📄🪨</li>
+            <li>Rock🪨 crushes Scissors✂️!</li>
+            <li>Scissors✂️ cut Paper📄!</li>
+            <li>Paper📄 covers Rock🪨!</li>
             <li>If you both choose the same thing, it’s a draw! 😅</li>
         </ul>
     </li>
